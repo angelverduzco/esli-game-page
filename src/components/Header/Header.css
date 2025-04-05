@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #282c34;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: grey 0.5px solid;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: var(--fuente-titulos);
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-family: var(--fuente-titulos);
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    text-decoration: underline;
+}

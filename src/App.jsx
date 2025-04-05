@@ -1,0 +1,16 @@
+import Header from './components/Header/Header'
+import { BrowserRouter, Routes, Route } from 'react-router'
+import './App.css'
+
+function App() {
+
+  return (
+    <>
+      <BrowserRouter>
+        <Header />
+      </BrowserRouter>
+    </>
+  )
+}
+
+export default App
