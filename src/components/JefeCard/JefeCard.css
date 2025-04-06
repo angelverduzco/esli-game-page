@@ -1,0 +1,49 @@
+.jefe-card {
+    padding: 3.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40rem;
+    margin-right: 40rem;
+    margin-bottom: 3rem;
+    background-color: var(--color-secundario);
+    border-radius: 20px;
+}
+
+.jefe-div-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fuente-principal);
+    width: 400px;
+}
+
+.jefe-div-info {
+    font-family: var(--fuente-principal);
+    margin-right: 1.5rem;
+    width: 800px;
+}
+
+.jefe-img {
+    aspect-ratio: 1/1;
+    width: 300px;
+}
+
+.jefe-name {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.jefe-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.jefe-description {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.jefe-attack {
+    font-size: 1.1rem;
+}
