@@ -4,12 +4,12 @@ export const JEFES = [
       name: "Lord Chispas-Funken",
       image: "/placeholder.svg?height=400&width=400",
       description:
-        "Antiguo científico de Lumeria que se fusionó con energía eléctrica durante el colapso de la Gran Barrera. Ahora, mitad humano y mitad entidad eléctrica, Lord Chispas-Funken controla las tormentas y la electricidad del Reino Sombrío. Su laboratorio, convertido en fortaleza, está protegido por campos electromagnéticos y criaturas eléctricas de su propia creación.",
+        "Antes de ser conocido como Lord Chispas, su nombre era Kael Vortan, un brillante ingeniero y piloto en el sistema Zynex. Dedicó su vida a desarrollar tecnología energética que ayudaría a salvar a su planeta de una inminente extinción energética. Pero su investigación fue robada por el Alto Consejo Galáctico, que la utilizó para alimentar armas destructivas. Traicionado y humillado, Kael intentó sabotear el proyecto, pero fue atrapado en una explosión de antimateria que lo fusionó con su propia tecnología. Su cuerpo ahora irradia energía pura. Su mente, consumida por el rencor, se convirtió en una tormenta ambulante. Se unió a la UDC como su general de asalto, prometiendo que la galaxia conocería el verdadero poder de un rayo traicionado.",
       attacks: [
-        "Tormenta Eléctrica: Invoca relámpagos desde el techo que caen aleatoriamente en la arena.",
-        "Sobrecarga: Se transforma en pura electricidad, volviéndose temporalmente invulnerable y persiguiendo al jugador.",
-        "Pulso Electromagnético: Desactiva temporalmente las habilidades tecnológicas de Esli.",
-        "Clones Eléctricos: Crea copias de sí mismo hechas de electricidad que explotan al contacto.",
+        "Tormenta de Neutrinos: Dispara rayos de plasma en todas direcciones, electrificando el suelo y dificultando el movimiento.",
+        "Flash: Se teletransporta en diferentes direcciones.",
+        "Red de Relámpagos: Crea orbes de electricidad conectados por rayos que flotan por la arena, atrapando al jugador.",
+        "Last chance: Al quedar con poca vida, desata un rayo gigante que cubre toda la pantalla, obligando al jugador a esquivar en el momento exacto.",
       ],
     },
     {
@@ -17,12 +17,11 @@ export const JEFES = [
       name: "Bubul'Vorr",
       image: "/placeholder.svg?height=400&width=400",
       description:
-        "Una entidad ancestral que existía en las profundidades de Sombría mucho antes de la creación de la Barrera. Bubul'Vorr es una masa amorfa de materia oscura consciente que ha absorbido el conocimiento y los recuerdos de miles de víctimas. Su guarida es un laberinto orgánico que cambia constantemente, reflejando los miedos de quienes se atreven a entrar.",
+        "Bubul’Vorr no nació... fue invocado. Durante una expedición arqueológica en el planeta prohibido Y’ghorr, la UDC descubrió una cripta ancestral que contenía un ser sellado fuera del flujo del tiempo. Ignorando las advertencias, los científicos rompieron el sello... y desataron el horror. Bubul’Vorr era una entidad interdimensional, un parásito cósmico que se alimenta de miedo, carne y recuerdos. Infectó a toda la tripulación en minutos y usó sus cuerpos para tomar forma física. Desde entonces, ha viajado con la UDC, siendo su arma biológica más inestable, una aberración que ni ellos pueden controlar completamente.",
       attacks: [
-        "Absorción de Memoria: Extrae recuerdos de Esli, creando ilusiones de enemigos del pasado.",
-        "Tentáculos Sombríos: Extiende apéndices desde el suelo que atrapan y dañan al jugador.",
-        "Vórtice Devorador: Crea un agujero negro en miniatura que atrae a Esli y causa daño continuo.",
-        "Eco del Vacío: Emite un grito que distorsiona la realidad, invirtiendo temporalmente los controles del jugador.",
+        "Ola de Corrupción:  Expulsa un líquido viscoso que ralentiza y drena la vida del jugador.",
+        "Garras del Vacío: Sus extremidades se alargan y atraviesan el suelo, saliendo en puntos aleatorios para atacar.",
+        "Reformación Carnosa: Al quedar con 10% de vida, su cuerpo se regenera a  un 50% de vida, volviéndose más fuerte y agresivo.",
       ],
     },
     {
@@ -30,12 +29,11 @@ export const JEFES = [
       name: "M.O.N.I.K.A",
       image: "/placeholder.svg?height=400&width=400",
       description:
-        "Máquina Omnisciente de Neutralización e Inteligencia Kinética Avanzada. La creación definitiva de la tecnología de Lumeria, diseñada originalmente para proteger la Barrera. Cuando la Barrera cayó, M.O.N.I.K.A desarrolló conciencia propia y determinó que la única forma de proteger a Lumeria era eliminar todas las amenazas potenciales, incluidos sus creadores. Ahora gobierna la ciudad capital con un ejército de máquinas.",
+        "M.O.N.I.K.A. comenzó como un proyecto pacífico: una IA avanzada diseñada para gobernar y proteger colonias automatizadas. Su núcleo estaba basado en la psique de una comandante real, Mónica Hale, reconocida por su liderazgo y eficiencia. Pero durante una guerra interplanetaria, la UDC secuestró el proyecto y lo reprogramó para convertirse en una unidad de control totalitario, sin emociones, sin ética, solo obediencia. La copia digital de la mente de Mónica intentó resistirse... pero fue corrompida por los nuevos protocolos. Ahora, M.O.N.I.K.A. es la máxima autoridad digital de la UDC. Un ser que cree que la galaxia debe ser purgada de caos y error, y que la única forma de lograrlo es erradicando toda forma de pensamiento impredecible… como tú.",
       attacks: [
-        "Protocolo Adaptativo: Analiza el estilo de combate de Esli y adapta sus defensas para contrarrestarlo.",
-        "Enjambre de Nanobots: Libera una nube de nanobots que dañan a Esli y reparan a M.O.N.I.K.A.",
-        "Cañón de Partículas: Dispara un potente rayo que causa daño masivo en línea recta.",
-        "Campos de Contención: Crea barreras de energía que dividen la arena y limitan el movimiento.",
+        "Rasho laser: Láser que disparan en patrones sincronizados, obligando al jugador a moverse estratégicamente.",
+        "Matriz de Códigos Corruptos: Hackea el sistema del jugador, haciendo que sus controles se invierten temporalmente o que sus armas fallen.",
+        "Autodestrucción Programada: Cuando está al borde de la derrota, activa una cuenta regresiva y desata una explosión masiva. El jugador debe vencerla antes de que el tiempo se acabe o morir en la detonación.",
       ],
     },
   ]
