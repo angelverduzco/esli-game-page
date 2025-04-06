@@ -1,6 +1,8 @@
 :root {
   --fuente-principal: "Play", sans-serif;
   --fuente-titulos: "Press Start 2P", sans-serif;
+  --color-principal: #111827;
+  --color-secundario: #030712;
   line-height: 1.5;
   font-weight: 400;
 

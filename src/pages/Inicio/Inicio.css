@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     height: 100%;
-    background-color: #111827;
+    background-color: var(--color-principal);
     width: 100%;
     box-sizing: border-box;
 }
