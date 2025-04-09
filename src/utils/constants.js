@@ -36,4 +36,37 @@ export const JEFES = [
         "Autodestrucción Programada: Cuando está al borde de la derrota, activa una cuenta regresiva y desata una explosión masiva. El jugador debe vencerla antes de que el tiempo se acabe o morir en la detonación.",
       ],
     },
-  ]
+]
+  
+export const MEMBERS = [
+  {
+    id: "hanzeel",
+    name: "Hanzeel Villa",
+    image: "/images/members/hanzeel.jpg",
+    description: "Pendiente",
+    social_media: {
+      linkedin: "https://www.linkedin.com/in/hanzeelvilla/",
+      github: "https://github.com/hanzeelvilla",
+    }
+  },
+  {
+    id: "carlos",
+    name: "Carlos Herrera",
+    image: "/images/members/carlos.jpg",
+    description: "Pendiente",
+    social_media: {
+      linkedin: "https://www.linkedin.com/in/hanzeelvilla/",
+      github: "https://github.com/cherrera8",
+    }
+  },
+  {
+    id: "angel",
+    name: "Angel Verduzco",
+    image: "/images/members/angel.jpg",
+    description: "Pendiente",
+    social_media: {
+      linkedin: "https://www.linkedin.com/in/angelverduzco/",
+      github: "https://github.com/angelverduzco",
+    }
+  }
+];
