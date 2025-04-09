@@ -7,7 +7,7 @@ function Header() {
         {name: 'Instrucciones', path: "/instrucciones"},
         {name: 'Highscores', path: "/highscores"},
         {name: 'Jefes', path: "/jefes"},
-        {name: 'Quienes somos', path: "/quienes-somos"},
+        {name: 'Sobre nosotros', path: "/sobre-nosotros"},
         {name: 'Agradecimientos', path: "/agradecimientos"},
     ]
 
