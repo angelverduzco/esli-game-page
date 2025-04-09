@@ -1,0 +1,20 @@
+.member {
+    font-family: var(--fuente-principal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-secundario);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.member-image {
+    aspect-ratio: 1/1;
+    width: 300px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 0.5rem;
+}
