@@ -1,0 +1,30 @@
+.highscores-table {
+    font-family: var(--fuente-principal);
+    border: 1px solid #ccc;
+    margin-bottom: 3rem;
+    border-collapse: collapse;
+}
+
+.highscores-table th, td {
+    border-bottom: 1px solid #ccc;
+    border-left: 0px;
+    border-right: 0px;
+    text-align: center;
+}
+
+.highscores-table-head {
+    border-radius: 20px;
+}
+
+.highscores-table-header {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px;
+    background-color: var(--color-secundario);
+}
+
+.highscores-table-header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
