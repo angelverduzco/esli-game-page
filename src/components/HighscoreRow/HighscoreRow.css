@@ -1,0 +1,23 @@
+.highscore-cell {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.highscore-cell div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.highscore-gold {
+    color: gold;
+}
+
+.highscore-silver {
+    color: silver;
+}
+
+.highscore-brown {
+    color: #8B4513;
+}
