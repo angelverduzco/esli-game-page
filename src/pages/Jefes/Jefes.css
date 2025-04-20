@@ -4,6 +4,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+}
+
+.jefes-section {
+    width: 100%;
 }
 
 .jefes-title {

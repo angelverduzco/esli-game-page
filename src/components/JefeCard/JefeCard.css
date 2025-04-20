@@ -1,9 +1,9 @@
 .jefe-card {
-    padding: 3.5rem 0;
+    padding: 2rem 0;
     display: flex;
     justify-content: space-between;
-    margin-left: 40rem;
-    margin-right: 40rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
     margin-bottom: 3rem;
     background-color: var(--color-secundario);
     border-radius: 20px;

@@ -4,7 +4,7 @@ function JefeCard({ jefe }) {
     return (
         <div className='jefe-card'>
             <div className='jefe-div-main'>
-                <img className='jefe-img' src="" alt={ jefe.name } />
+                <img className='jefe-img' src={ jefe.image } alt={ jefe.name } />
                 <h2 className='jefe-name'>{ jefe.name }</h2>
             </div>
             <div className='jefe-div-info'>
