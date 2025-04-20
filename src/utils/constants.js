@@ -43,7 +43,7 @@ export const MEMBERS = [
     id: "hanzeel",
     name: "Hanzeel Villa",
     image: "/images/members/hanzeel.jpg",
-    description: "Pendiente",
+    description: "Historia, desarrollo del videojuego y de la API.",
     social_media: {
       linkedin: "https://www.linkedin.com/in/hanzeelvilla/",
       github: "https://github.com/hanzeelvilla",
@@ -53,7 +53,7 @@ export const MEMBERS = [
     id: "carlos",
     name: "Carlos Herrera",
     image: "/images/members/carlos.jpg",
-    description: "Pendiente",
+    description: "Desarrollo del videojuego y diseño de personajes.",
     social_media: {
       linkedin: "https://www.linkedin.com/in/hanzeelvilla/",
       github: "https://github.com/cherrera8",
@@ -63,7 +63,7 @@ export const MEMBERS = [
     id: "angel",
     name: "Angel Verduzco",
     image: "/images/members/angel.jpg",
-    description: "Pendiente",
+    description: "Desarrollo de la página web y de la API.",
     social_media: {
       linkedin: "https://www.linkedin.com/in/angelverduzco/",
       github: "https://github.com/angelverduzco",

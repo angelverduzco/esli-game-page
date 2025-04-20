@@ -7,7 +7,7 @@ function SobreNosotros() {
         <main className='sobre-nosotros'>
             <section className='desc'>
                 <h1 className='desc-title'>Sobre nosotros</h1>
-                <p className='desc-text'>Somos un grupo apasionado de estudiantes de 6to semestre de la Facultad de Telemática. Nos encantan los sistemas embebidos, el desarrollo web y las tetas. Node.js el mejor lenguaje de programación</p>
+                <p className='desc-text'>Somos un grupo apasionado de estudiantes en Ingeniería de Software de 6to semestre de la Facultad de Telemática. Nos encantan los sistemas embebidos, el desarrollo web y desarrollo backend. Nuesto lema de vida es "Calma y elixir".</p>
             </section>
             <section className='members'>
                 {MEMBERS.map((member) => (
