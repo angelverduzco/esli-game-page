@@ -8,6 +8,7 @@
     width: 100%;
     box-sizing: border-box;
     border-bottom: grey 0.5px solid;
+    position: relative;
 }
 
 .nav {
@@ -32,4 +33,48 @@
 
 .active {
     text-decoration: underline;
+}
+
+/* Botón de menú (hamburguesa) */
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 1024px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: var(--color-principal);
+        width: 100%;
+        padding: 1rem 0;
+        gap: 1rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .title {
+        font-size: 0.8rem;
+    }
+
+    .nav.open {
+        display: flex;
+    }
+
+    .nav-link {
+        font-size: 0.8rem;
+        text-align: center;
+    }
 }
