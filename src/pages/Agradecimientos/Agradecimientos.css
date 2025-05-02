@@ -29,16 +29,6 @@
   box-shadow: 0 0 15px #00ffc344;
 }
 
-@media (max-width: 768px) {
-    .agradecimientos-title {
-        font-size: 1rem;
-    }
-
-    .agradecimientos-text {
-        font-size: 1.2rem;
-    }
-}
-
 @media (max-width: 1024px) {
 
     .agradecimientos-title {
@@ -46,7 +36,17 @@
     }
 
     .agradecimientos-text {
-        font-size: 1rem;
-        max-width: 600px;
+        font-size: 1.5rem;
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 768px) {
+    .agradecimientos-title {
+        font-size: 1.5rem;
+    }
+
+    .agradecimientos-text {
+        font-size: 1.2rem;
     }
 }
