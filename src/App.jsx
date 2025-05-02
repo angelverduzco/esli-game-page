@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer'
 import Jefes from './pages/Jefes/Jefes'
 import SobreNosotros from './pages/SobreNosotros/SobreNosotros'
 import Highscores from './pages/Highscores/Highscores'
+import Agradecimientos from './pages/Agradecimientos/Agradecimientos'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='/highscores' element={<Highscores />}></Route>
           <Route path='/jefes' element={<Jefes />}></Route>
           <Route path='/sobre-nosotros' element={<SobreNosotros />}></Route>
+          <Route path='/agradecimientos' element={<Agradecimientos />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
