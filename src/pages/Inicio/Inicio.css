@@ -1,81 +1,175 @@
 .inicio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    background-color: var(--color-principal);
-    width: 100%;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-principal);
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  color: #e2e8f0;
+  padding-bottom: 4rem;
 }
 
 .inicio-welcome {
-    text-align: center;
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
 }
 
 .inicio-welcome-title {
-    font-family: var(--fuente-titulos);
-    font-size: 2.5rem;
-    margin-top: 6rem;
-    margin-bottom: 2rem;
+  font-family: var(--fuente-titulos);
+  font-size: 2.5rem;
+  margin: 0 0 1rem 0;
+  color: var(--color-detalle);
+  text-shadow: 0 0 10px #00ffc377;
 }
 
 .inicio-welcome-text {
-    font-family: var(--fuente-principal);
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+  font-family: var(--fuente-principal);
+  font-size: 1.2rem;
+  color: #cbd5e1;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .inicio-trailer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
 }
 
 .inicio-trailer-title {
-    font-family: var(--fuente-principal);
-    font-size: 2rem;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
+  font-family: var(--fuente-principal);
+  font-size: 2rem;
+  color: var(--color-detalle);
+  margin-bottom: 1rem;
 }
 
 .inicio-trailer-video {
-    width: 100%;
-    height: 100%;
-    max-width: 800px;
-    max-height: 450px;
-    margin-bottom: 2rem;
-    border-radius: 20px;
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 20px #00ffc344;
 }
 
 .inicio-trailer-text {
-    font-family: var(--fuente-principal);
-    font-size: 1rem;
-    margin-top: 0;
-    margin-bottom: 2rem;
+  font-family: var(--fuente-principal);
+  font-size: 1.2rem;
+  color: #94a3b8;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  max-width: 800px;
+  text-align: center;
 }
 
 .inicio-historia {
-    margin: 0 30rem;
-    padding: 1rem;
-    background-color: #030712;
-    border: #1e2836 0.5px solid;
-    border-radius: 20px;
-    margin-bottom: 2rem;
-    max-width: 1000px;
+  margin: 0 2rem;
+  max-width: 1000px;
+  background-color: var(--color-secundario);
+  border: 1px solid #334155;
+  border-radius: 20px;
+  padding: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0 0 20px #00ffc322;
 }
 
 .inicio-historia-title {
-    font-family: var(--fuente-principal);
-    font-size: 2rem;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
+  font-family: var(--fuente-principal);
+  font-size: 2rem;
+  color: var(--color-detalle);
+  margin-bottom: 1rem;
 }
 
 .inicio-historia-text {
-    font-family: var(--fuente-principal);
+  font-family: var(--fuente-principal);
+  font-size: 1.1rem;
+  color: #cbd5e1;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+/* Para pantallas medianas (tabletas) */
+@media (max-width: 1024px ) {
+  .inicio-welcome-title {
+    font-size: 2.2rem;
+  }
+
+  .inicio-welcome-text {
     font-size: 1.1rem;
-    margin-top: 0;
-    margin-bottom: 2rem;
+    padding: 0 2rem;
+  }
+
+  .inicio-trailer-title {
+    font-size: 1.8rem;
+  }
+
+  .inicio-trailer-video {
+    max-width: 90%;
+    border-radius: 15px;
+  }
+
+  .inicio-trailer-text {
+    font-size: 1.1rem;
+    padding: 0 2rem;
+  }
+
+  .inicio-historia {
+    margin: 0 2rem;
+    padding: 1.8rem;
+  }
+
+  .inicio-historia-title {
+    font-size: 1.8rem;
+  }
+
+  .inicio-historia-text {
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 768px) {
+  .inicio-welcome-title {
+    font-size: 1.7rem;
+  }
+
+  .inicio-welcome-text {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .inicio-trailer-title {
+    font-size: 1.5rem;
+  }
+
+  .inicio-trailer-video {
+    max-width: 90%;
+    border-radius: 10px;
+  }
+
+  .inicio-trailer-text {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .inicio-historia {
+    margin: 0 1rem;
+    padding: 1.5rem;
+    max-height: 450px;
+    overflow-y: auto;
+  }
+
+  .inicio-historia-title {
+    font-size: 1.5rem;
+  }
+
+  .inicio-historia-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 }
