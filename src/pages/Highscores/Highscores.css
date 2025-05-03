@@ -10,11 +10,15 @@
     font-family: var(--fuente-titulos);
     font-size: 2.5rem;
     margin-top: 5rem;
+    text-align: center;
+    text-shadow: 0 0 10px #00ffc377;
 }
 
 .highscores-desc {
     font-family: var(--fuente-principal);
     font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem 2rem;
 }
 
 .highscores-table-container {
@@ -22,10 +26,43 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    overflow-x: auto;
 }
 
 .highscores-loading {
     font-family: var(--fuente-principal);
     font-size: 1.5rem;
-    margin-top: 0;
+    margin-top: 1rem;
+    height: 59vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media queries para pantallas medianas (tabletas) */
+@media (max-width: 1024px) {
+    .highscores-title {
+        font-size: 2rem;
+    }
+
+    .highscores-desc {
+        font-size: 1.2rem;
+    }
+}
+
+/* Media queries para pantallas pequeñas (celulares) */
+@media (max-width: 768px) {
+    .highscores-title {
+        font-size: 1.8rem;
+    }
+
+    .highscores-desc {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+
+    .highscores-loading {
+        height: 61vh;
+    }
 }
