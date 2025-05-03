@@ -2,12 +2,11 @@
   height: 79vh;
   display: flex;
   flex-direction: column;
-  padding: 2rem 4rem;
+  padding: 2rem 3rem;
   background: var(--color-principal);
   color: #ffffffcc;
   text-align: justify;
   line-height: 1.6;
-  overflow-y: auto;
 }
 
 .agradecimientos-title {
@@ -27,6 +26,8 @@
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 0 15px #00ffc344;
+  max-height: 500px;
+  overflow-y: auto;
 }
 
 @media (max-width: 1024px) {
@@ -43,10 +44,10 @@
 
 @media (max-width: 768px) {
     .agradecimientos-title {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .agradecimientos-text {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
