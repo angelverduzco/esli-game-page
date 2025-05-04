@@ -42,7 +42,7 @@ export const MEMBERS = [
   {
     id: "hanzeel",
     name: "Hanzeel Villa",
-    image: "/images/members/hanzeel.jpg",
+    image: "/images/members/hanzeel.webp",
     description: "Historia, desarrollo del videojuego y de la API.",
     social_media: {
       linkedin: "https://www.linkedin.com/in/hanzeelvilla/",
@@ -52,7 +52,7 @@ export const MEMBERS = [
   {
     id: "carlos",
     name: "Carlos Herrera",
-    image: "/images/members/carlos.jpg",
+    image: "/images/members/carlos.webp",
     description: "Desarrollo del videojuego y diseño de personajes.",
     social_media: {
       linkedin: "https://www.linkedin.com/in/hanzeelvilla/",
@@ -62,7 +62,7 @@ export const MEMBERS = [
   {
     id: "angel",
     name: "Angel Verduzco",
-    image: "/images/members/angel.jpg",
+    image: "/images/members/angel.webp",
     description: "Desarrollo de la página web y de la API.",
     social_media: {
       linkedin: "https://www.linkedin.com/in/angelverduzco/",
