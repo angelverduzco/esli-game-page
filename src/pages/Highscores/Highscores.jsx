@@ -9,7 +9,7 @@ function Highscores() {
   useEffect(() => {
     const fetchHighscores = async () => {
       try {
-        const response = await fetch('http://localhost:3000/api/highscores');
+        const response = await fetch('https://esli-game-api.onrender.com/api/highscores');
         const data = await response.json();
         console.log(data)
         setHighscores(data);
