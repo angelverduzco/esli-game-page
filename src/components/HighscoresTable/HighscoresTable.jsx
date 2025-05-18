@@ -1,6 +1,6 @@
 import './HighscoresTable.css';
 import { Target, Trophy, Calendar, Skull, Zap, Timer } from 'lucide-react';
-import HighscoreRow from '../components/HighscoreRow/HighscoreRow';
+import HighscoreRow from '../HighscoreRow/HighscoreRow';
 
 function HighscoresTable({highscores}) {
     return (

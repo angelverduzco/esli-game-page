@@ -70,3 +70,45 @@ export const MEMBERS = [
     }
   }
 ];
+
+export const INSTRUCCIONES = [
+  {
+    id: "instruccion-1",
+    title: "Mueve a Esli",
+    description: "Usa las teclas WASD o las flechas del teclado para mover a Esli por el mapa.",
+    image: "https://i.blogs.es/b9c60e/konami-code/1366_2000.jpg",
+  },
+  {
+    id: "instruccion-2",
+    title: "Ataca a los enemigos",
+    description: "Usa la tecla 'Espacio' para atacar a los enemigos y eliminar",
+    image: "https://img.freepik.com/foto-gratis/tarjeta-plantilla-informe-papel-suave_1258-167.jpg?semt=ais_hybrid&w=740"
+  },
+  {
+    id: "instruccion-3",
+    title: "Ataca a los enemigos",
+    description: "Usa la tecla 'Espacio' para atacar a los enemigos y eliminar",
+    image: "https://i.blogs.es/b9c60e/konami-code/1366_2000.jpg"
+  }
+]
+
+export const LEDS = [
+  {
+    id: "led-1",
+    name: "LED Rojo",
+    color: "#ef4444",
+    description: "Indica que el dispositivo está encendido.",
+  },
+  {
+    id: "led-2",
+    name: "LED Azul",
+    color: "#3b82f6",
+    description: "Indica que el dispositivo esta conectado a Internet",
+  },
+  {
+    id: "led-3",
+    name: "LED Amarillo",
+    color: "#eab308",
+    description: "Indica que la batería del dispositivo está baja.",
+  }
+]

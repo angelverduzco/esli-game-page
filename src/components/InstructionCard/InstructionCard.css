@@ -1,0 +1,34 @@
+.instruction-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #00ffc322;
+  background-color: var(--color-secundario);
+  font-family: var(--fuente-principal);
+  max-width: 500px;
+  min-height: 500px;
+  margin-bottom: 50px;
+}
+
+.instruction-card-image {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.instruction-card-content {
+    padding: 0 20px;
+}
+
+.instruction-card-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.instruction-card-description {
+  font-size: 1.2rem;
+  text-align: start;
+  margin-bottom: 10px;
+}

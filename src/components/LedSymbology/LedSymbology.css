@@ -1,0 +1,26 @@
+.led-symbology {
+    background-color: var(--color-secundario);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #00ffc322;
+    margin-bottom: 20px;
+    font-family: var(--fuente-principal);
+}
+
+.led-symbology-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.led-symbology-title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.led-symbology-description {
+    font-size: 1.2rem;
+    text-align: start;
+    margin: 10px 0;
+}

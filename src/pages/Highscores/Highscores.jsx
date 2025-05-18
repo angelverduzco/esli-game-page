@@ -1,5 +1,5 @@
 import './Highscores.css';
-import HighscoresTable from '../../HighscoresTable/HighscoresTable';
+import HighscoresTable from '../../components/HighscoresTable/HighscoresTable';
 import { useState, useEffect } from 'react';
 
 function Highscores() {
