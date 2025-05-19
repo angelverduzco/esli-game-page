@@ -29,6 +29,18 @@
     text-align: center;
 }
 
+@media (max-width: 1024px) {
+    .jefes-title {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .jefes-description {
+        font-size: 1.5rem;
+        margin: 2rem 1rem 3rem 2rem;
+    }
+}
+
 @media (max-width: 768px) {
     .jefes-title {
         font-size: 2rem;

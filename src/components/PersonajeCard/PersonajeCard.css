@@ -61,6 +61,11 @@
     .jefe-div-info {
         margin-left: 1.5rem;
     }
+
+    .jefe-div-main {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -75,5 +80,10 @@
 
     .jefe-attack {
         font-size: 1rem;
+    }
+
+    .jefe-div-main {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
