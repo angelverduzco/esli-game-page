@@ -12,6 +12,7 @@
 }
 
 .instruction-card-image {
+  aspect-ratio: 16/9;
     width: 100%;
     height: auto;
     border-top-left-radius: 10px;
