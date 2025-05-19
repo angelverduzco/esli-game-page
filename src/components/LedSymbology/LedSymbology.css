@@ -3,8 +3,10 @@
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 0 20px #00ffc322;
-    margin-bottom: 20px;
+    margin: 20px;
+    width: 90%;
     font-family: var(--fuente-principal);
+    box-sizing: border-box;
 }
 
 .led-symbology-container {
@@ -23,4 +25,23 @@
     font-size: 1.2rem;
     text-align: start;
     margin: 10px 0;
+}
+
+@media (max-width: 1024px) {
+    .led-symbology {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .led-symbology {
+        margin-bottom: 20px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .led-symbology-description {
+        text-align: center;
+        font-size: 1.1rem;
+    }
 }

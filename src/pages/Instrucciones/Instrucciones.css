@@ -27,3 +27,33 @@
     justify-content: space-around;
     align-items: center;
 }
+
+@media (max-width: 1024px) {
+    .instrucciones-title {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .instrucciones-description {
+        font-size: 1.5rem;
+        margin: 2rem 1rem 3rem 2rem;
+    }
+
+    .instrucciones-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .instrucciones-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .instrucciones-description {
+        font-size: 1.2rem;
+        margin: 2rem 1rem 3rem 2rem;
+    }
+}

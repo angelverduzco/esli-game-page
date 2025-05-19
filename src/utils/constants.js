@@ -93,7 +93,7 @@ export const LEDS = [
     id: "led-1",
     name: "LED Rojo",
     color: "#ef4444",
-    description: "Indica que el dispositivo está encendido.",
+    description: "Indica que el dispositivo está encendido y funcionando.",
   },
   {
     id: "led-2",

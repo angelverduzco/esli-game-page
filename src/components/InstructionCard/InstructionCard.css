@@ -6,7 +6,7 @@
   box-shadow: 0 0 20px #00ffc322;
   background-color: var(--color-secundario);
   font-family: var(--fuente-principal);
-  max-width: 500px;
+  max-width: 30%;
   min-height: 500px;
   margin-bottom: 50px;
 }
@@ -31,4 +31,18 @@
   font-size: 1.2rem;
   text-align: start;
   margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+  .instruction-card {
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .instruction-card {
+    max-width: 375px;
+    margin-bottom: 20px;
+  }
 }

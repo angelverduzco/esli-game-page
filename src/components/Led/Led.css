@@ -24,3 +24,49 @@
     font-size: 1.1rem;
     text-align: start;
 }
+
+@media (max-width: 1024px) {
+    .led {
+        max-width: 400px;
+        margin-bottom: 20px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .led-description {
+        text-align: center;
+    }
+
+    .led-color {
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .led {
+        margin-bottom: 20px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .led-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .led-description {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .led-title {
+        font-size: 1.15rem;
+        margin: 0;
+    }
+
+    .led-color {
+        margin: 0;
+    }
+}
