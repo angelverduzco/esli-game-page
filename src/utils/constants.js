@@ -84,7 +84,7 @@ export const INSTRUCCIONES = [
     id: "instruccion-3",
     title: "Compra nuevo equipamento",
     description: "Usa tu dinero para comprar armas y mejorar tu equipo.",
-    image: "/images/instructions/armas.webp"
+    image: "/images/instructions/armería.gif"
   },
   {
     id: "instruccion-4",
@@ -134,6 +134,6 @@ export const CAROUSEL_ITEMS = [
   {
     id: "slide-4",
     imagen: "/images/carousel/armería.gif",
-    descripcion: "Compra equipamento y hazte mas fuerte", 
+    descripcion: "Compra equipamiento y hazte mas fuerte", 
   },
 ]
