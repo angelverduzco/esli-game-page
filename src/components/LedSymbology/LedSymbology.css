@@ -4,14 +4,14 @@
     border-radius: 20px;
     box-shadow: 0 0 20px #00ffc322;
     margin: 20px;
-    width: 90%;
+    width: 70%;
     font-family: var(--fuente-principal);
     box-sizing: border-box;
 }
 
 .led-symbology-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -30,6 +30,7 @@
 @media (max-width: 1024px) {
     .led-symbology {
         margin-bottom: 20px;
+        width: 85%;
     }
 }
 
@@ -38,6 +39,7 @@
         margin-bottom: 20px;
         flex-direction: column-reverse;
         text-align: center;
+        width: 95%;
     }
 
     .led-symbology-description {
