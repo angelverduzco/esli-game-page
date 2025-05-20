@@ -51,7 +51,7 @@ export const MEMBERS = [
     image: "/images/members/carlos.webp",
     description: "Desarrollo del videojuego y diseño de personajes.",
     social_media: {
-      linkedin: "https://www.linkedin.com/in/hanzeelvilla/",
+      linkedin: "",
       github: "https://github.com/cherrera8",
     }
   },
