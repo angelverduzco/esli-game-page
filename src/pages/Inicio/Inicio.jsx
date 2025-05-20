@@ -1,5 +1,7 @@
 import './Inicio.css';
 import '@justinribeiro/lite-youtube';
+import ControlledCarousel from '../../components/ControlledCarousel/ControlledCarousel';
+import { CAROUSEL_ITEMS } from '../../utils/constants';
 
 function Inicio() {
     return (
@@ -8,9 +10,9 @@ function Inicio() {
                 <h1 className='inicio-welcome-title'>Esli: Última Misión</h1>
                 <p className="inicio-welcome-text">La aventura final que definirá el destino del comandante Esli</p>
             </section>
-            <section className='inicio-trailer'> 
-                <h3 className='inicio-trailer-title'>Trailer oficial</h3>
-                <lite-youtube videoid="OhNwckCLzis" className="inicio-trailer-video"></lite-youtube>
+            <section className='inicio-carousel'> 
+                <h3 className='inicio-trailer-title'>Gameplay</h3>
+                <ControlledCarousel items={CAROUSEL_ITEMS} />
                 <p className="inicio-trailer-text">Experimenta la épica aventura del rescate del comandante Esli</p>
             </section>
             <section className='inicio-historia'>

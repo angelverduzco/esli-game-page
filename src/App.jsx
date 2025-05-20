@@ -8,7 +8,6 @@ import Highscores from './pages/Highscores/Highscores'
 import Agradecimientos from './pages/Agradecimientos/Agradecimientos'
 import Instrucciones from './pages/Instrucciones/Instrucciones'
 import Personajes from './pages/Personajes/Personajes'
-
 function App() {
 
   return (

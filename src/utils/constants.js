@@ -99,18 +99,41 @@ export const LEDS = [
     id: "led-1",
     name: "LED Rojo",
     color: "#ef4444",
-    description: "Indica que el dispositivo está encendido y funcionando.",
+    description: "Consola encendida.",
   },
   {
     id: "led-2",
-    name: "LED Azul",
-    color: "#3b82f6",
-    description: "Indica que el dispositivo esta conectado a Internet.",
+    name: "LED Verde",
+    color: "#0dcc10",
+    description: "Conexión a Internet.",
   },
   {
     id: "led-3",
     name: "LED Amarillo",
     color: "#eab308",
-    description: "Indica que la batería del dispositivo está baja.",
+    description: "Batería baja.",
   }
+]
+
+export const CAROUSEL_ITEMS = [
+  {
+    id: "slide-1",
+    imagen: "/images/carousel/movimiento.gif",
+    descripcion: "Muevete por el mapa libremente", 
+  },
+  {
+    id: "slide-2",
+    imagen: "/images/carousel/disparar.gif",
+    descripcion: "Dispara a los enemigos y sal victorioso", 
+  },
+  {
+    id: "slide-3",
+    imagen: "/images/carousel/bosses.gif",
+    descripcion: "Enfrentate a jefes formidables", 
+  },
+  {
+    id: "slide-4",
+    imagen: "/images/carousel/armería.gif",
+    descripcion: "Compra equipamento y hazte mas fuerte", 
+  },
 ]

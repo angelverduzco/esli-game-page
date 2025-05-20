@@ -45,16 +45,7 @@
   font-size: 2rem;
   color: var(--color-detalle);
   margin-bottom: 1rem;
-}
-
-.inicio-trailer-video {
-  width: 100%;
-  max-width: 800px;
-  aspect-ratio: 16 / 9;
-  border-radius: 20px;
-  overflow: hidden;
-  margin-bottom: 1rem;
-  box-shadow: 0 0 20px #00ffc344;
+  text-align: center;
 }
 
 .inicio-trailer-text {
@@ -108,11 +99,6 @@
     font-size: 1.8rem;
   }
 
-  .inicio-trailer-video {
-    max-width: 90%;
-    border-radius: 15px;
-  }
-
   .inicio-trailer-text {
     font-size: 1.1rem;
     padding: 0 2rem;
@@ -145,11 +131,6 @@
 
   .inicio-trailer-title {
     font-size: 1.5rem;
-  }
-
-  .inicio-trailer-video {
-    max-width: 90%;
-    border-radius: 10px;
   }
 
   .inicio-trailer-text {
