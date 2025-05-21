@@ -22,6 +22,13 @@ body {
   min-height: 100vh;
 }
 
+#root {
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
+  background-color: var(--color-principal);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
