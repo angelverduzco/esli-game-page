@@ -45,6 +45,10 @@
 }
 
 @media (max-width: 768px) {
+    .sobre-nosotros {
+        max-width: 100dvw;
+    }
+
     .desc-title {
         font-size: 2rem;
     }

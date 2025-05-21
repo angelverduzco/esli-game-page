@@ -18,12 +18,11 @@
 
 body {
   margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 #root {
   display: grid;
+  width: 100%;
   min-height: 100dvh;
   grid-template-rows: auto 1fr auto;
   background-color: var(--color-principal);

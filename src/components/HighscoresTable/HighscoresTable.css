@@ -1,3 +1,9 @@
+.highscores-table-container {
+    width: 100%;
+    overflow-x: auto;
+    /* Quita display: flex en móviles */
+}
+
 .highscores-table {
     font-family: var(--fuente-principal);
     border: 1px solid #ccc;
@@ -13,7 +19,6 @@
     text-align: center;
     padding: 10px;
     font-size: 1rem;
-    word-wrap: break-word; /* Permite que el texto largo se ajuste */
 }
 
 .highscores-table-head {
@@ -54,13 +59,7 @@
 @media (max-width: 768px) {
     .highscores-table {
         display: block; /* Convierte la tabla en un bloque desplazable */
-        max-width: 500px; /* Limita el ancho máximo */
-        overflow-x: auto; /* Permite desplazamiento horizontal */
-    }
-
-    .highscores-table th, td {
-        font-size: 0.8rem;
-        padding: 5px;
+        max-width: 100dvw; /* Asegura que la tabla no exceda el ancho de la pantalla */
     }
 
     .highscores-table-header {

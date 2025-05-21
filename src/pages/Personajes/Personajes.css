@@ -42,6 +42,10 @@
 }
 
 @media (max-width: 768px) {
+    .jefes {
+        max-width: 100dvw;
+    }
+
     .jefes-title {
         font-size: 2rem;
         text-align: center;

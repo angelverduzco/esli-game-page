@@ -44,6 +44,11 @@
 }
 
 @media (max-width: 768px) {
+    .agradecimientos {
+        max-width: 100dvw;
+        padding: 1rem;
+    }
+
     .agradecimientos-title {
         font-size: 1.2rem;
     }
