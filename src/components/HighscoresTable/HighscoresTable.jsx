@@ -18,7 +18,7 @@ function HighscoresTable({highscores}) {
                 </tr>
             </thead>
             <tbody className='highscores-table-body'>
-                {highscores.map((highscore, index) => <HighscoreRow key={highscore.gamertag} highscore={highscore} rank={ index + 1 } />)}
+                {highscores.map((highscore, index) => <HighscoreRow key={highscore.gamertag + index} highscore={highscore} rank={ index + 1 } />)}
             </tbody>
         </table>
     )
