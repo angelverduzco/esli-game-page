@@ -1,0 +1,27 @@
+.button {
+  width: fit-content;
+  padding: 10px;
+  margin-bottom: 20px;
+  height: auto;
+  border: solid white 1px;
+  font-family: var(--fuente-principal);
+  background-color: var(--color-secundario);
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 10px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #00ffc3;
+  transition: all ease-in-out 0.2s;
+}
+
+@media (max-width: 768px) {
+  .button {
+    width: fit-content;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+}
